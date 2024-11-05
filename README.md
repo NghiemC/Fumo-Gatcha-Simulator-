@@ -32,9 +32,9 @@ The gacha pool includes the following Fumos:
 *   **March 15th 2024:** Initial development of the Fumo Gacha program begins. 
 *   **April 5th 2024:** Core gacha mechanics, including rarity levels, pity system, and guaranteed pulls, are implemented. 
 *   **April 20th 2024:** User interface using `JOptionPane` is added, allowing for user interaction.
-*   **May 1st 2024: ** Testing and debugging completed for ver 1.0.0.
-*   **September 12th 2024: ** In progress implimentation of a SQL database for images for the gacha. Stored in txt doc. **
-*   **Nov 5th 2024: ** Transfering code to this GitHub. **
+*   **May 1st 2024:** Testing and debugging completed for ver 1.0.0.
+*   **September 12th 2024:** In progress implimentation of a SQL database for images for the gacha. Stored in txt doc. **
+*   **Nov 5th 2024:** Transfering code to this GitHub. **
 
 ## Code Overview
 
