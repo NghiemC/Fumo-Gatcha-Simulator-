@@ -34,7 +34,7 @@ The gacha pool includes the following Fumos:
 *   **April 20th 2024:** User interface using `JOptionPane` is added, allowing for user interaction.
 *   **May 1st 2024: ** Testing and debugging completed for ver 1.0.0.
 *   **September 12th 2024: ** In progress implimentation of a SQL database for images for the gacha. Stored in txt doc. **
-*   **Nov 3rd 2024: ** Transfering code to this GitHub. **
+*   **Nov 5th 2024: ** Transfering code to this GitHub. **
 
 ## Code Overview
 
@@ -50,6 +50,15 @@ The code utilizes the `ArrayList`, `Random`, and `JOptionPane` classes for data 
 
 Enter $1 to $10 to add to your balance (or 0 to stop): 10 Total pulls during this session: 10 Your money has turned into the amount of pulls you can pull for. You have 10 pulls left. Would you like to pull from the gacha pool? Yes You pulled: Fumbo (Rarity: Normal!) You pulled: Mass produced Bootleg Fumo (Rarity: Real!) You pulled: Mass produced Bootleg Fumo (Rarity: Real!) You pulled: Fumbo (Rarity: Normal!) You pulled: A Real Genuine Fumo (Rarity: Super Special Rare!) You pulled: Mass produced Bootleg Fumo (Rarity: Real!) You pulled: Fumbo (Rarity: Normal!) You pulled: Decent Custom Fumo (Rarity: Super Rare!) You pulled: Fumbo (Rarity: Normal!) You pulled: Fumbo (Rarity: Normal!) Congratulations! You are guaranteed to get a SR in the next pull.
 
+## Additional Note
+
+The program currently is not functional with the SQLManager class. Please run without that class till full implmentation.
+
+## Bugs
+It is known and still is a issue with the constantly of the pulls shown to the user. Possibly the amount of money put in doesn't give a 1 for 1 in terms of pulls.
+Current bug testing is underway for this project for this issue.
+
 ## Disclaimer
 
 This is a simple gacha simulation for fun. It does not involve real money or prizes. 
+
