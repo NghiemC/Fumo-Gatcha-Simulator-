@@ -1,0 +1,31 @@
+-- Fumo Table
+CREATE TABLE Fumo (
+    fumo_id INT PRIMARY KEY, 
+    fumo_name VARCHAR(255) NOT NULL,
+    rarity VARCHAR(2) NOT NULL
+);
+
+-- Data for Fumo Table
+INSERT INTO Fumo (fumo_id, fumo_name, rarity) VALUES
+(1, 'Fumbo', 'N'),
+(2, 'Mass produced Bootleg Fumo', 'R'),
+(3, 'Decent Custom Fumo', 'SR'),
+(4, 'A Real Genuine Fumo', 'SSR'); 
+
+-- Rarity Table (Optional)
+CREATE TABLE Rarity (
+    rarity_code VARCHAR(2) PRIMARY KEY, 
+    rarity_name VARCHAR(255) NOT NULL,
+    description TEXT 
+);
+
+-- Data for Rarity Table
+INSERT INTO Rarity (rarity_code, rarity_name, description) VALUES 
+('N', 'Normal', 'The most common type of Fumo.'),
+('R', 'Real', 'A step above normal Fumos.'),
+('SR', 'Super Rare', 'Harder to find Fumos.'),
+('SSR', 'Super Special Rare', 'The rarest and most desirable Fumos!'); 
+
+-- Foreign Key Relationship (if using Rarity Table)
+ALTER TABLE Fumo
+ADD CONSTRAINT FK_Fumo_Rarity FOREIGN KEY (rarity) REFERENCES Rarity(rarity_code);
